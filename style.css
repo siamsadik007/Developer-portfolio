@@ -62,8 +62,24 @@ width: 90%;
     margin: 0 5% 5% 5% ;
     padding: ;
     box-shadow: 8px 8px 60px black;
+    border-radius: 10px;
 }
 .bg3{
     background-image: url(exp-bg.png);
     background-repeat: no-repeat;
+}
+.border1{
+    border-left: 5px solid;
+  
+    border-image: linear-gradient( red,blue);
+      border-image-slice: 1 ;
+}
+.border2{
+    border-left: 5px solid;
+    
+    border-image: linear-gradient( rgb(46, 9, 255),rgb(51, 207, 255));
+      border-image-slice: 1 
+}
+footer{
+    text-align: center;
 }
